@@ -1,6 +1,6 @@
 # docker-keycloak-h2
 
-
+```
   keycloak:
     container_name: local_keycloak
     environment:
@@ -15,3 +15,4 @@
     ports:
       - "28080:8080"
     restart: unless-stopped
+```
